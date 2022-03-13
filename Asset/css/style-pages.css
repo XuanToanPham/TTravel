@@ -1,0 +1,23 @@
+h1{
+    font-size: 4rem !important;
+    letter-spacing: 2px;
+}
+
+.contact-body-content, .contact-body-icon{
+    color: #146ebe;
+}
+
+.btn{
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    color: rgb(78, 77, 77);
+    border-radius: 10px;
+    border-color: #3d4261;    
+}
+
+.btn:hover{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #3d4261;
+}

@@ -1,0 +1,177 @@
+/* Mobie */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body, html {
+    height: 100%;
+    
+}
+
+.logo svg{
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+
+.logo svg:hover{
+    box-shadow: 0 10px 20px #3d4261, 0 6px 6px #2a2e4b;
+}
+nav{
+    top: 1.5rem;
+    z-index: 998;
+}
+.nav-link{
+    font-size: 1em;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.nav-link:hover{
+    color: #5e6170;
+}
+    
+.link-book{
+
+    background-color: #2a2e4b;
+}
+
+.link-book:hover{
+    color: #3d4261;
+    background-color: white;
+}
+.banner, .background-introduce{
+    height: 100%;
+}
+
+.banner-image, .background-introduce-image{
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(50%);
+}
+
+.banner-content, .background-introduce-content{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.banner-content a{
+    color: white;
+    font-weight: 500;
+}
+.banner-content a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #2a2e4b;
+}
+.banner-content span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.banner-link{
+    border: 2px solid white;
+    padding: 0.75rem 1.75rem;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+}
+.body-image{
+    min-width: 100%; 
+    height: auto;
+}
+.name-image{
+    color: white;
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.image-filter{
+    filter: brightness(75%);
+}
+.body-image >.img-fluid{
+    min-width: 100%;
+    height: auto;
+}
+
+.body__content-introduce{
+    text-align: center;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+}
+
+.image-title{
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(86, 89, 226);
+}
+
+.body-link-about{
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #3d4261;
+    color: #3d4261;
+    text-decoration: none;
+}
+
+.body-link-about:hover{
+    color: white;
+    background-color: #3d4261;
+    text-decoration: none;
+    
+}
+
+.body-link-explore{
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+}
+
+.body-link-explore:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #3d4261;
+}
+
+.list-item-footer{
+    
+    list-style-type: none;
+}
+
+.list-item-footer a{
+    color: rgb(70, 70, 70);
+
+}
+
+.list-item-footer a:hover{
+    text-decoration: none;
+    color: #0f2ce4;
+
+}
